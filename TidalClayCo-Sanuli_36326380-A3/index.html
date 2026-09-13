@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tidal Clay Co.</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="Return to Tidal Clay Co. Home page">
+            <img src="images/tidal clay co. - logo.png" alt="Tidal Clay Co." width="210" height="60" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" aria-label="main navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" id="mobile-menu-toggle" aria-expanded="false" aria-controls="cs-ul-wrapper" aria-label="mobile menu toggle" aria-haspopup="menu">
+                <span class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1"></span>
+                    <span class="cs-line cs-line2"></span>
+                    <span class="cs-line cs-line3"></span>
+                </span>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper" id="cs-ul-wrapper">
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <a href="#home" class="cs-li-link cs-active" aria-current="page">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="#shop" class="cs-li-link">
+                            Shop
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="#gift-card" class="cs-li-link">
+                            Gift Card
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="#about" class="cs-li-link">
+                            About 
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="#contact" class="cs-li-link">
+                            Contact 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Get in Touch</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!--<button id="dark-mode-toggle" aria-label="dark mode toggle" aria-pressed="false">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve" aria-hidden="true"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="" width="15" height="15">
+        </button>-->
+    </div>
+</header>
+ <!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-856">
+    <div class="cs-container">
+
+        <div class="cs-content">
+
+            <span class="cs-topper">HANDMADE CERAMICS</span>
+
+            <h1 class="cs-title">Crafted for Everyday Moments</h1>
+
+            <p class="cs-text">
+                Every piece of Tidal Clay Co. pottery is handcrafted in Western Australia, inspired by the quiet beauty of the Australian coast.
+            </p>
+
+            <a href="#collection-1602" class="cs-button-solid">
+                Shop Collection
+            </a>
+
+        </div>
+
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="images/hero page image -tidal.png">
+            <source media="(min-width: 601px)" srcset="images/hero page image -tidal.png">
+            <source media="(min-width: 1024px)" srcset="images/hero page image -tidal.png">
+
+            <img 
+                aria-hidden="true"
+                decoding="async"
+                src="images/hero page image -tidal.png"
+                alt="Tidal Clay Co. handmade pottery"
+                width="570"
+                height="701">
+        </picture>
+
+    </div>
+
+    <svg class="cs-wave" width="1920" height="179" viewBox="0 0 1920 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 179V91.3463C1835.33 91.3463 1715.47 76.615 1549.2 32.9521C1299.48 -32.3214 1132.77 12.1006 947.32 61.5167C810.762 97.9044 664.042 137 466.533 137C331.607 137 256.468 123.447 188.082 111.113C130.974 100.812 78.5746 91.3609 0 91.3609V179H1920Z" fill="white"/>
+    </svg>
+
+</section>
+<!-- ============================================ -->
+<!--              Our Story Section               -->
+<!-- ============================================ -->
+
+<section id="sbs-r-1892">
+    <div class="cs-container">
+
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="images/our story img.png">
+                <source media="(min-width: 601px)" srcset="images/our story img.png">
+
+                <img
+                    loading="lazy"
+                    decoding="async"
+                    src="images/our story img.png"
+                    alt="Handcrafted pottery from Tidal Clay Co."
+                    width="324"
+                    height="467">
+            </picture>
+
+            <div class="cs-info">
+                <p class="cs-info-text">
+                    <span class="cs-bold">Handcrafted in Western Australia</span>
+                    <br>
+                    Made with Australian clays and food-safe glazes
+                </p>
+            </div>
+        </div>
+
+        <div class="cs-content">
+
+            <div class="cs-flex">
+                <span class="cs-topper">Our Story</span>
+
+                <h2 class="cs-title">
+                    Made by hand, inspired by the coast
+                </h2>
+            </div>
+
+            <p class="cs-text-large">
+                Every piece of Tidal Clay Co. pottery is handcrafted in Western Australia, inspired by the quiet beauty of the Australian coast.
+            </p>
+
+            <p class="cs-text">
+                Our ceramics are designed to bring simple beauty into everyday moments. Organic shapes, subtle colours and natural textures reflect the rugged yet delicate character of coastal living.
+            </p>
+
+            <p class="cs-text">
+                We use carefully selected Australian clays and food-safe, non-toxic glazes to create pieces that are beautiful, practical and made to be enjoyed every day.
+            </p>
+
+            <a href="#shop" class="cs-button-solid">
+                Explore Our Collection
+            </a>
+
+        </div>
+    </div>
+</section>
+<!-- ============================================ -->
+<!--           Featured Collection                -->
+<!-- ============================================ -->
+
+<section id="collection-1602">
+    <div class="cs-container">
+
+        <div class="cs-content">
+            <h2 class="cs-title">Featured Collection</h2>
+        </div>
+
+        <div class="cs-listing-wrapper">
+
+            <div class="cs-listing">
+
+                <!-- Product 1 -->
+                <div class="cs-item">
+                    <a href="#contact" class="cs-link">
+
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    src="images/Shallow mug.png"
+                                    alt="Shallows Mug from Tidal Clay Co."
+                                    width="305"
+                                    height="400">
+                            </picture>
+                        </div>
+
+                        <div class="cs-details">
+                            <span class="cs-category">Stoneware</span>
+                            <h3 class="cs-name">Shallows Mug</h3>
+
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$38</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+
+                <!-- Product 2 -->
+                <div class="cs-item">
+                    <a href="#contact" class="cs-link">
+
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    src="images/sea light mug.png"
+                                    alt="Sea Light Mug from Tidal Clay Co."
+                                    width="305"
+                                    height="400">
+                            </picture>
+                        </div>
+
+                        <div class="cs-details">
+                            <span class="cs-category">Stoneware</span>
+                            <h3 class="cs-name">Sea Light Mug</h3>
+
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$42</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+
+                <!-- Product 3 -->
+                <div class="cs-item">
+                    <a href="#contact" class="cs-link">
+
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    src="images/Inelt Mug.png"
+                                    alt="Inlet Mug from Tidal Clay Co."
+                                    width="305"
+                                    height="400">
+                            </picture>
+                        </div>
+
+                        <div class="cs-details">
+                            <span class="cs-category">Porcelain</span>
+                            <h3 class="cs-name">Inlet Mug</h3>
+
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$45</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+
+                <!-- Product 4 -->
+                <div class="cs-item">
+                    <a href="#contact" class="cs-link">
+
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    src="images/Winter Sea Mug.png"
+                                    alt="Winter Sea Mug from Tidal Clay Co."
+                                    width="305"
+                                    height="400">
+                            </picture>
+                        </div>
+
+                        <div class="cs-details">
+                            <span class="cs-category">Stoneware</span>
+                            <h3 class="cs-name">Winter Sea Mug</h3>
+
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <span class="cs-price">$48</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<section id="contact-1388">
+    <div class="cs-container">
+
+        <div class="cs-content">
+
+            <span class="cs-topper">Contact Us</span>
+
+            <h2 class="cs-title">Get in Touch</h2>
+
+            <p class="cs-text">
+                We would love to hear from you. Whether you have a question about our handmade ceramics or want to learn more about our collections, get in touch with Tidal Clay Co.
+            </p>
+
+            <ul class="cs-ul">
+
+                <!-- Phone -->
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg"
+                            alt="Phone"
+                            class="cs-icon"
+                            width="40"
+                            height="40"
+                            decoding="async">
+                    </picture>
+
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:+61898411234" class="cs-link">
+                            +61 8 9841 1234
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Email -->
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg"
+                            alt="Email"
+                            class="cs-icon"
+                            width="40"
+                            height="40"
+                            decoding="async">
+                    </picture>
+
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Email</span>
+                        <a href="mailto:sampletidalclay@gmail.com" class="cs-link">
+                            sampletidalclay@gmail.com
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Address -->
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg"
+                            alt="Address"
+                            class="cs-icon"
+                            width="40"
+                            height="40"
+                            decoding="async">
+                    </picture>
+
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="#" class="cs-link">
+                            18 Seabreeze Lane, Albany, WA 6330, Australia
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <form
+            class="cs-form"
+            id="contact-form"
+            name="Contact Form"
+            method="post">
+
+            <h3 class="cs-h3">Send Us a Message</h3>
+
+            <!-- Name -->
+            <label class="cs-label">
+                Name
+                <input
+                    class="cs-input"
+                    required
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name">
+            </label>
+
+            <!-- Email -->
+            <label class="cs-label cs-email">
+                Email
+                <input
+                    class="cs-input"
+                    required
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your email">
+            </label>
+
+            <!-- Phone -->
+            <label class="cs-label cs-phone">
+                Phone
+                <input
+                    class="cs-input"
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Your phone number">
+            </label>
+
+            <!-- Message -->
+            <label class="cs-label">
+                Message
+                <textarea
+                    class="cs-input cs-textarea"
+                    required
+                    name="message"
+                    id="message"
+                    placeholder="Write your message..."></textarea>
+            </label>
+
+            <!-- Submit button -->
+            <button
+                class="cs-button-solid cs-submit"
+                type="submit">
+                Send Message
+            </button>
+
+            <!-- JavaScript message -->
+            <p id="form-message"></p>
+
+        </form>
+
+    </div>
+</section>                                
+<!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="cs-footer-269">
+    <div class="cs-container">
+
+        <!-- Logo Group -->
+        <div class="cs-logo-group">
+            <a aria-label="go back to home" class="cs-logo" href="#hero-856">
+                <img class="cs-logo-img light"
+                     aria-hidden="true"
+                     loading="lazy"
+                     decoding="async"
+                     src="images/tidal clay co. - logo.png"
+                     alt="Tidal Clay Co. logo"
+                     width="240"
+                     height="32">
+            </a>
+
+            <p class="cs-text">
+                Handcrafted ceramics made in Western Australia.
+                Tidal Clay Co. creates simple, functional and beautiful
+                pieces inspired by the natural beauty of coastal living.
+            </p>
+        </div>
+
+        <!-- Links -->
+        <ul class="cs-nav">
+            <li class="cs-nav-li">
+                <span class="cs-header">Sitemap</span>
+            </li>
+
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#hero-856">Home</a>
+            </li>
+
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#sbs-r-1892">About</a>
+            </li>
+
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#collection-1602">Collection</a>
+            </li>
+
+            <li class="cs-nav-li">
+                <a class="cs-nav-link" href="#contact-1388">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Contact Info -->
+        <ul class="cs-contact">
+            <li class="cs-nav-li">
+                <span class="cs-header">Contact</span>
+            </li>
+
+            <li class="cs-contact-li">
+                <a class="cs-contact-link"
+                   href="tel:+61898411234">
+                    +61 8 9841 1234
+                </a>
+            </li>
+
+            <li class="cs-contact-li">
+                <a class="cs-contact-link"
+                   href="mailto:sampletidalclay@gmail.com">
+                    sampletidalclay@gmail.com
+                </a>
+            </li>
+
+            <li class="cs-contact-li">
+                <span class="cs-contact-link">
+                    18 Seabreeze Lane, Albany, WA 6330, Australia
+                </span>
+            </li>
+
+            <!-- Social Media -->
+            <li class="cs-contact-li cs-social-group">
+                <div class="cs-social">
+
+                    <a class="cs-social-link"
+                       aria-label="visit Instagram profile"
+                       href="#">
+                        <img class="cs-social-img"
+                             aria-hidden="true"
+                             loading="lazy"
+                             decoding="async"
+                             src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg"
+                             alt="Instagram"
+                             width="11"
+                             height="11">
+                    </a>
+
+                    <a class="cs-social-link"
+                       aria-label="visit Facebook profile"
+                       href="#">
+                        <img class="cs-social-img"
+                             aria-hidden="true"
+                             loading="lazy"
+                             decoding="async"
+                             src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg"
+                             alt="Facebook"
+                             width="6"
+                             height="11">
+                    </a>
+
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+                                
